@@ -73,7 +73,7 @@ while True:
     # if the distance is between the limits we set, then move the servo
     if min_distance < dist < max_distance:
         move_to_angle(180)
-        print((dist, angle, min_distance, max_distance))
+        print((dist, 180, min_distance, max_distance))
     else: # otherwise go back to original position
         move_to_angle(0)
 
